@@ -7,13 +7,17 @@ html{
     overflow: hidden;
 }
 
+body{
+    background-color: #000;
+}
+
 
 /* scroll snap effect */
 main{
     width: 100%;
     height: 100vh;
     scroll-behavior: smooth;
-    overflow-y: scroll;
+    overflow-y: auto;
     scroll-snap-type:y mandatory;
 }
 
@@ -102,13 +106,14 @@ section{
     position: fixed;
     text-align: center;
     display: none;
+    transition: 0.3s;
 }
 
 .mobile-nav-links{
     height: 100vh;
     width: 100vw;
     position: relative;
-    background-color: #000;
+    background: transparent;
 }
 
 .mobile-nav-links div{
@@ -152,19 +157,19 @@ section{
 .header{
     height: 100vh;
     width: 100%;
-    background-color: #000;
+    background: transparent;
 }
 
 .about{
     height: 100vh;
     width: 100%;
-    background-color: #000;
+    background: transparent;
 }
 
 .contact{
     height: 100vh;
     width: 100%;
-    background-color: #000;
+    background: transparent;
 }
 
 /* pages design */
